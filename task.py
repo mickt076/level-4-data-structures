@@ -1,7 +1,10 @@
 def task_1(): # Lists
 
-    origional_list = ["Geoff", "Jeff", "Jeffrey"]
-
+    original_list = ["Geoff", "Jeff", "Jeffrey"]
+    original_list.insert(0, "Michael")
+    original_list.remove("Jeff")
+    new_list = original_list.copy()
+    
     return new_list
 
 
