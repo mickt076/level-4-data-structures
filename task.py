@@ -30,7 +30,7 @@ def task_3(): # Tuples
     student_1 = ("Geoff", "Maths", 80)
     student_2 = ("Brian", "English", 70)
     name = input("Please enter student name:")
-    subject = input("Please enter student subject:"
+    subject = input("Please enter student subject:")
     score = input("PLease enter student score out of 100:")
     students = student_1 + student_2
 
