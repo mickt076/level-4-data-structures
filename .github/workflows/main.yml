@@ -1,0 +1,59 @@
+def task_1(): # Lists
+    
+    origional_list = ["Geoff", "Jeff", "Jeffrey"]
+    user = input("Please enter a new name")
+    original_list.insert(0, ("Michael")
+    original_list.pop("Jeff")                    
+    original_list = new_list.copy
+    return new_list
+
+
+def task_2(): # Dictionaries
+
+    keys = ("name", "age", "profession")
+    values = ("Geoff", 35, "technician")
+    person = zip(keys, values)
+
+    keys = ("make", "model", "engine", "colour")
+    values = ("Ford", "Focus", "1.6", "blue")
+    car = zip(keys, values)
+
+    person = ('name', 'Geoff'), ('age', 35), ('profession', 'technician')
+    car = ('make', 'Ford'), ('model', 'Focus'), ('engine', '1.6'), ('colour', 'blue')
+    person += car
+    
+
+    return person
+
+
+def task_3(): # Tuples
+    student_1 = ("Geoff", "Maths", 80)
+    student_2 = ("Brian", "English", 70)
+    name = input("Please enter student name:")
+    subject = input("Please enter student subject:")
+    score = input("PLease enter student score out of 100:")
+    students = student_1 + student_2
+
+    
+    return students
+
+
+def task_4(): # Sets
+    fruits_1 = {"apple", "banana", "cherry", "grape", "mango", "pineapple", "papaya","sprite", "orange", "lemon", "strawberry"}
+    fruits_2 = {"raspberry", "banana", "cherry", "grape", "mango", "blueberry", "papaya", "melon", "lemon", "steak"}
+    fruits_1.remove("sprite")
+    fruits_2.remove("steak")
+
+    duplicate_fruits = set()
+    individual_fruits = set()
+    duplicate_fruits.add(tuple(["banana", "cherry", "grape", "mango", "papaya", "lemon"]))
+    individual_fruits.add(tuple(["apple", "raspberry", "pineapple", "blueberry", "orange", "melon", "strawberry"]))
+
+    
+
+    duplicate_fruits = None # This should be a tuple containing all the fruits in both tuples
+    individual_fruits = None # This should be a tuple containing only the individual fruits
+
+
+    return [duplicate_fruits, individual_fruits] # Note - functions can only return one data item - so both tuples
+                                                 # are contained inside a single list
